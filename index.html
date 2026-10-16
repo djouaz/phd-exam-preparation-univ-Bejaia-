@@ -1,12 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PhD exam preparation 2025-2026 </title>
+    <title>PhD exam preparation 2026-2027</title>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
     <style>
-        /* Your EXACT original styles - completely preserved */
+        /* Original design preserved */
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
@@ -14,6 +17,7 @@
             background-color: #ffffff;
             color: #333;
         }
+
         header {
             text-align: center;
             padding: 30px;
@@ -21,35 +25,43 @@
             color: white;
             box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
         }
+
         header h1 {
             margin-bottom: 5px;
             font-size: 2.2em;
         }
+
         header p {
             font-size: 1em;
             opacity: 0.9;
         }
+
         main {
             max-width: 900px;
             margin: auto;
             padding: 20px;
         }
+
         .module {
             padding: 20px 0;
         }
+
         h2 {
             color: hsla(309, 78%, 2%, 0.904);
             margin-bottom: 10px;
-            cursor: pointer; /* Only added this */
+            cursor: pointer;
         }
+
         hr {
             border: none;
             border-top: 1px solid hsl(0, 12%, 5%);
             margin: 20px 0;
         }
+
         .btn-group {
             margin-top: 10px;
         }
+
         .btn {
             display: inline-flex;
             align-items: center;
@@ -63,13 +75,16 @@
             font-weight: 600;
             font-size: 0.95em;
         }
+
         .btn:hover {
             background-color: #2980b9;
             transform: translateY(-2px);
         }
+
         .btn span {
             margin-left: 8px;
         }
+
         footer {
             text-align: center;
             padding: 15px;
@@ -79,10 +94,12 @@
             font-size: 0.9em;
             box-shadow: 0px -2px 8px rgba(0,0,0,0.1);
         }
+
         @media (max-width: 600px) {
             header h1 {
                 font-size: 1.7em;
             }
+
             .btn {
                 display: block;
                 text-align: center;
@@ -101,118 +118,221 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>📚 PhD exam preparation 2026-2027</h1>
-        <p>Mining & geotechnical engineering</p>
+        <p>Mining &amp; geotechnical engineering</p>
         <p>University of BEJAIA</p>
     </header>
 
     <main>
+
         <!-- Module 1 -->
         <section class="module">
             <h2 onclick="showPDF('frgm')">1️⃣ Fragmentation des roches</h2>
+
             <div class="btn-group">
-                <a download=" cours+TD+Solution" href= "univesité bejaia\fragmentation\Cours fragmentation des roches -M1 EM  - E-learning.pdf" download class="btn">📥 <span>Cours</span></a>
-                <a download=" TD fragmentation"  href="univesité bejaia\fragmentation\3 TD   Fragmentation des roches 2021 -2022 docx.pdf" download class="btn">📥 <span>Cours + TD</span></a>
+                <a href="./fragmentation/Cours%20fragmentation%20des%20roches%20-M1%20EM%20%20-%20E-learning.pdf"
+                   download class="btn">
+                    📥 <span>Cours</span>
+                </a>
+
+                <a href="./fragmentation/3%20TD%20%20%20Fragmentation%20des%20roches%202021%20-2022%20docx.pdf"
+                   download class="btn">
+                    📥 <span>Cours + TD</span>
+                </a>
             </div>
-            <iframe id="frgm-viewer" class="pdf-viewer" src="about:blank"></iframe>
+
+            <iframe id="frgm-viewer" class="pdf-viewer" title="Fragmentation des roches"></iframe>
         </section>
+
         <hr>
 
         <!-- Module 2 -->
         <section class="module">
             <h2 onclick="showPDF('mec_roches')">2️⃣ Mécanique des Roches</h2>
+
             <div class="btn-group">
-                <a download=" cours mécanique des roche" href="univesité bejaia\mécanique des roches\Cours_BOUKARM Riadh_Mécanique des roches.pdf" download class="btn">📥 <span>Cours+TD</span></a>
-                <a download="MDR (les contraintes)" href="univesité bejaia\mécanique des roches\me pdf\MDR1 DJOU.pdf" download class="btn">📥 <span>MDR1</span></a>
-                <a download=" MDR (les contraintes suite)" href="univesité bejaia\mécanique des roches\me pdf\MDR Suite .pdf" download class="btn">📥 <span>MDR1 suite</span></a>
+                <a href="./m%C3%A9canique%20des%20roches/Cours_BOUKARM%20Riadh_M%C3%A9canique%20des%20roches.pdf"
+                   download class="btn">
+                    📥 <span>Cours + TD</span>
+                </a>
+
+                <a href="./m%C3%A9canique%20des%20roches/me%20pdf/MDR1%20DJOU.pdf"
+                   download class="btn">
+                    📥 <span>MDR1</span>
+                </a>
+
+                <a href="./m%C3%A9canique%20des%20roches/me%20pdf/MDR%20Suite%20.pdf"
+                   download class="btn">
+                    📥 <span>MDR1 suite</span>
+                </a>
             </div>
-            <iframe id="mec_roches-viewer" class="pdf-viewer" src="about:blank"></iframe>
+
+            <iframe id="mec_roches-viewer" class="pdf-viewer" title="Mécanique des roches"></iframe>
         </section>
+
         <hr>
 
         <!-- Module 3 -->
         <section class="module">
             <h2 onclick="showPDF('expl_sout')">3️⃣ Exploitation Souterraine</h2>
+
             <div class="btn-group">
-                <a download="exploitaion souterrain" href="univesité bejaia\exp souterrain\cours+td\Polycopié de cours Exploitation en Souterrain  Dr.FREDJ Mohamed.pdf" download class="btn">📥 <span>Cours + TD</span></a>
+                <a href="./exp%20souterrain/cours%2Btd/Polycopi%C3%A9%20de%20cours%20Exploitation%20en%20Souterrain%20%20Dr.FREDJ%20Mohamed.pdf"
+                   download class="btn">
+                    📥 <span>Cours + TD</span>
+                </a>
             </div>
-            <iframe id="expl_sout-viewer" class="pdf-viewer" src="about:blank"></iframe>
+
+            <iframe id="expl_sout-viewer" class="pdf-viewer" title="Exploitation souterraine"></iframe>
         </section>
+
         <hr>
 
         <!-- Module 4 -->
         <section class="module">
             <h2 onclick="showPDF('geotech')">4️⃣ Géotechnique</h2>
+
             <div class="btn-group">
-                <a download="cours suite" href="univesité bejaia\Geotech\me résumé\cours géotech.rar" download class="btn">📥 <span>cours+TD</span></a>
-                <a download="exercices géotech" href="univesité bejaia\Geotech\me résumé\exercice géotechnique DJOU.pdf" download class="btn">📥 <span>TD</span></a> 
+                <a href="./Geotech/me%20r%C3%A9sum%C3%A9/cours%20g%C3%A9otech.rar"
+                   download class="btn">
+                    📥 <span>Cours + TD</span>
+                </a>
+
+                <a href="./Geotech/me%20r%C3%A9sum%C3%A9/exercice%20g%C3%A9otechnique%20DJOU.pdf"
+                   download class="btn">
+                    📥 <span>TD</span>
+                </a>
             </div>
-            <iframe id="geotech-viewer" class="pdf-viewer" src="about:blank"></iframe>
+
+            <iframe id="geotech-viewer" class="pdf-viewer" title="Géotechnique"></iframe>
         </section>
+
         <hr>
 
         <!-- Module 5 -->
         <section class="module">
-            <h2 onclick="showPDF('expl_sout')">5️⃣ Exploitation Ciel ouvert </h2>
+            <h2 onclick="showPDF('expl_ciel')">5️⃣ Exploitation Ciel ouvert</h2>
+
             <div class="btn-group">
-                <a download="Exploitation CO" href="univesité bejaia\exploitation ciel ouvert\Cours_Saadoun Abderrazak_Exploitation à ciel ouvert (1).pdf" download class="btn">📥 <span>Cours+TD</span></a>
+                <a href="./exploitation%20ciel%20ouvert/Cours_Saadoun%20Abderrazak_Exploitation%20%C3%A0%20ciel%20ouvert%20(1).pdf"
+                   download class="btn">
+                    📥 <span>Cours + TD</span>
+                </a>
             </div>
-            <iframe id="expl_sout-viewer" class="pdf-viewer" src="about:blank"></iframe>
+
+            <iframe id="expl_ciel-viewer" class="pdf-viewer" title="Exploitation à ciel ouvert"></iframe>
         </section>
+
         <hr>
+
         <!-- Module 6 -->
         <section class="module">
-            <h2 onclick="showPDF('geotech')"> 6️⃣ hydrogéologie</h2>
+            <h2 onclick="showPDF('hydro')">6️⃣ Hydrogéologie</h2>
+
             <div class="btn-group">
-                <a download="hydrogéologie" href="univesité bejaia\hydrogéologie\Cours_Bounab Samia_Hydrogéologie.pdf" download class="btn">📥 <span>Cours + TD</span></a>
+                <a href="./hydrog%C3%A9ologie/Cours_Bounab%20Samia_Hydrog%C3%A9ologie.pdf"
+                   download class="btn">
+                    📥 <span>Cours + TD</span>
+                </a>
             </div>
-            <iframe id="geotech-viewer" class="pdf-viewer" src="about:blank"></iframe>
+
+            <iframe id="hydro-viewer" class="pdf-viewer" title="Hydrogéologie"></iframe>
         </section>
+
         <hr>
+
         <!-- Module 7 -->
         <section class="module">
-            <h2 onclick="showPDF('geotech')">7️⃣ Géologie générale</h2>
+            <h2 onclick="showPDF('geologie')">7️⃣ Géologie générale</h2>
+
             <div class="btn-group">
-                <a download="géologie generale" href="univesité bejaia\geologie générale\geologie générale.rar" download class="btn">📥 <span>Cours</span></a>
+                <a href="./geologie%20g%C3%A9n%C3%A9rale/geologie%20g%C3%A9n%C3%A9rale.rar"
+                   download class="btn">
+                    📥 <span>Cours</span>
+                </a>
             </div>
-            <iframe id="geotech-viewer" class="pdf-viewer" src="about:blank"></iframe>
+
+            <iframe id="geologie-viewer" class="pdf-viewer" title="Géologie générale"></iframe>
         </section>
+
         <hr>
+
         <!-- Module 8 -->
         <section class="module">
-            <h2 onclick="showPDF('geotech')">8️⃣ Mineralurgie</h2>
+            <h2 onclick="showPDF('mineralurgie')">8️⃣ Minéralurgie</h2>
+
             <div class="btn-group">
-                <a href="univesité bejaia\mineralurgie\mineralurgie.rar" download class="btn">📥 <span>Cours+TD </span></a>
-                
+                <a href="./mineralurgie/mineralurgie.rar" download class="btn">
+                    📥 <span>Cours + TD</span>
+                </a>
             </div>
-            <iframe id="geotech-viewer" class="pdf-viewer" src="about:blank"></iframe>
+
+            <iframe id="mineralurgie-viewer" class="pdf-viewer" title="Minéralurgie"></iframe>
         </section>
+
         <hr>
+
         <!-- Module 9 -->
         <section class="module">
-            <h2 onclick="showPDF('sujet')">9️⃣ Sujet doctorat </h2>
+            <h2 onclick="showPDF('sujet')">9️⃣ Sujet doctorat</h2>
+
             <div class="btn-group">
-                <a download=" 2019 commun "href="univesité bejaia\sujet doctorat\exploitation et geotech\comun\concours doctorat 2019 .pdf" download class="btn">📥 <span>2019 commun</span></a>
-                <a download="2021-2022" href="univesité bejaia\sujet doctorat\exploitation et geotech\2022\counc2022.rar" download class="btn">📥 <span>2021/2022</span></a>
-                 <a download="2022-2023" href="univesité bejaia\sujet doctorat\exploitation et geotech\comun\doctorat 2022 2023.pdf" download class="btn">📥 <span>2022/2023</span></a>
-                 <a download="sujet 2024-2025" href="univesité bejaia\sujet doctorat\exploitation et geotech\comun\sujet 2024_2025 .pdf" download class="btn">📥 <span>2024/2025</span></a>
+                <a href="./sujet%20doctorat/exploitation%20et%20geotech/comun/concours%20doctorat%202019%20.pdf"
+                   download class="btn">
+                    📥 <span>2019 commun</span>
+                </a>
+
+                <a href="./sujet%20doctorat/exploitation%20et%20geotech/2022/counc2022.rar"
+                   download class="btn">
+                    📥 <span>2021/2022</span>
+                </a>
+
+                <a href="./sujet%20doctorat/exploitation%20et%20geotech/comun/doctorat%202022%202023.pdf"
+                   download class="btn">
+                    📥 <span>2022/2023</span>
+                </a>
+
+                <a href="./sujet%20doctorat/exploitation%20et%20geotech/comun/sujet%202024_2025%20.pdf"
+                   download class="btn">
+                    📥 <span>2024/2025</span>
+                </a>
             </div>
-            <iframe id="expl_ciel-viewer" class="pdf-viewer" src="about:blank"></iframe>
+
+            <iframe id="sujet-viewer" class="pdf-viewer" title="Sujets de doctorat"></iframe>
         </section>
+
     </main>
 
     <footer>
-        <p> created by <strong>Djoubrane Azouz</strong> | mining engineering | © 2026 - PhD exam preparation</p>
+        <p>created by <strong>Djoubrane Azouz</strong> | mining engineering | © 2026 - PhD exam preparation</p>
     </footer>
 
     <script>
+        // Open or close the first PDF associated with each module.
+        // Download links above remain separate from this viewer.
+        const modulePDFs = {
+            frgm: "./fragmentation/Cours%20fragmentation%20des%20roches%20-M1%20EM%20%20-%20E-learning.pdf",
+            mec_roches: "./m%C3%A9canique%20des%20roches/Cours_BOUKARM%20Riadh_M%C3%A9canique%20des%20roches.pdf",
+            expl_sout: "./exp%20souterrain/cours%2Btd/Polycopi%C3%A9%20de%20cours%20Exploitation%20en%20Souterrain%20%20Dr.FREDJ%20Mohamed.pdf",
+            geotech: "./Geotech/me%20r%C3%A9sum%C3%A9/exercice%20g%C3%A9otechnique%20DJOU.pdf",
+            expl_ciel: "./exploitation%20ciel%20ouvert/Cours_Saadoun%20Abderrazak_Exploitation%20%C3%A0%20ciel%20ouvert%20(1).pdf",
+            hydro: "./hydrog%C3%A9ologie/Cours_Bounab%20Samia_Hydrog%C3%A9ologie.pdf",
+            geologie: null,
+            mineralurgie: null,
+            sujet: "./sujet%20doctorat/exploitation%20et%20geotech/comun/concours%20doctorat%202019%20.pdf"
+        };
+
         function showPDF(moduleId) {
             const viewer = document.getElementById(`${moduleId}-viewer`);
-            const pdfPath = `pdf/${moduleId}_cours.pdf`; // Default PDF to show
-            
-            // Toggle viewer visibility
+            const pdfPath = modulePDFs[moduleId];
+
+            if (!viewer || !pdfPath) {
+                return;
+            }
+
             if (viewer.style.display === "block") {
                 viewer.style.display = "none";
                 viewer.src = "about:blank";
@@ -224,5 +344,3 @@
     </script>
 </body>
 </html>
-
-
